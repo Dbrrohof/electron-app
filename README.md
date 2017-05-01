@@ -5,10 +5,10 @@ A simple desktop app, that allows you to store your password. Customize your own
 ## Installation
 **node.js**
 ```bash
-1. Download
-2. Run command from folder
-3. npm install
-4. npm run start
+1. Download and extract to a folder.
+2. Run commandline from folder.
+3. npm install.
+4. npm run start.
 ```
 
 ## Contributing

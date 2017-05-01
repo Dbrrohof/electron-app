@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Davzz's App</title>
+    <!-- Photon CSS -->
+    <link href="css/photon.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="drag">
+        <div class="title-info">
+            <img class="title-img" src="img/icon.png">
+            <span class="title-text">Davzz's App</span>
+        </div>
+        <div id="close-btn"><span class="icon icon-cancel"></span></div>
+        <div id="max-btn"><span class="icon icon-plus"></span></div>
+        <div id="min-btn"><span class="icon icon-minus"></span></div>
+    </div>
+
+
+
+
+    <!-- Start your project here-->
+    <div class="content">
+        <div class="sidebar">
+        <span class="icon icon-menu open-menu"></span>    
+            <div class="instance head">
+                <h2>MENU</h2>
+                <span class="icon icon-cancel close-menu"></span>
+            </div>
+            <div class="instance menu">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="instance menu">
+                <a href="system.html">System info</a>
+            </div> 
+            <div class="instance menu">
+                <a href="about.html">About</a>
+            </div> 
+            <div class="instance menu">
+                <a href="settings.html">Settings</a>
+            </div>
+            <img class="logo-image animated pulse" src="img/icon-lg.png">            
+        </div>
+        <div class="main-content">
+            <div class="profile-pic" id="profile-pic">
+            
+            </div>
+            <h1 class="text-center">My Settings</h1>
+            <div class="input-form">
+                <input type="text" id="name" placeholder="Name">
+                <input type="number" id="age" min="0" max="100" placeholder="Alder">
+                <select id="gender">
+                    <option value="">Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <button id="upload" class="upload">Upload image</button>
+                <br>
+                <button id="btn">Save settings</button>
+            </div>
+            <div class="alert success">
+                <span class="closebtn"></span>  
+                <strong>Success!</strong> Settings are updated.
+            </div>
+        </div>
+    </div>
+    <!-- /Start your project here-->
+
+
+
+
+    <!-- SCRIPTS -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="default.js"></script>
+    <script type="text/javascript" src="settings.js"></script>
+
+    <script>if (window.module) module = window.module;</script>
+</body>
+
+</html>

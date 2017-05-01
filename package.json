@@ -1,0 +1,21 @@
+{
+  "name": "my_app",
+  "version": "1.0.0",
+  "description": "My app lol",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-packager . my_app --platform=win32 --arch=x64 --overwrite --asar"
+  },
+  "author": "Davzz",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "electron-packager": "^8.6.0"
+  },
+  "dependencies": {
+    "electron-config": "^0.2.1",
+    "electron-titlebar-windows": "^2.1.0"
+  }
+}

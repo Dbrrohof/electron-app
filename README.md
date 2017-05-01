@@ -13,14 +13,11 @@ A simple desktop app, that allows you to store your password. Customize your own
 
 ## Contributing
 
-Donate on paypal: 
+**Donate on paypal:**
 ```bash 
 dbrrohof@gmail.com
 ```
 
-## History
-
-TODO: Write history
 
 ## Credits
 

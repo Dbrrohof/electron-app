@@ -3,7 +3,7 @@
 A simple desktop app, that allows you to store your password. Customize your own profile to perfection.
 
 ## Installation
-
+**node.js**
 ```bash
 1. Download
 2. Run command from folder
